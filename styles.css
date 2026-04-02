@@ -386,18 +386,19 @@ body.love-mode .face-wrap {
   }
 
   .button-stage {
-    min-height: 250px;
+    min-height: 290px;
     padding-top: 0.25rem;
   }
 
   .yes-btn {
     width: 100%;
     display: block;
+    margin-bottom: 1.25rem;
   }
 
   .no-btn {
     left: 50%;
-    top: 118px;
+    top: 152px;
     transform: translateX(-50%);
   }
 }
