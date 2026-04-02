@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Do You Love Me Mistu?</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;700;800&family=DM+Serif+Display:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="background-glow background-glow-a"></div>
+    <div class="background-glow background-glow-b"></div>
+    <div class="sparkles" aria-hidden="true">
+      <span>❤</span>
+      <span>✦</span>
+      <span>❤</span>
+      <span>★</span>
+      <span>❤</span>
+      <span>✦</span>
+      <span>❤</span>
+      <span>★</span>
+    </div>
+
+    <main class="page-shell">
+      <section class="card" id="loveCard">
+        <div class="badge">Serious question alert</div>
+
+        <div class="hero-row">
+          <div class="mascot-panel">
+            <div class="face-wrap">
+              <div class="face" id="moodFace" aria-hidden="true">🥺</div>
+            </div>
+            <p class="mood-text" id="moodText">Tiny nervous face waiting for the answer...</p>
+          </div>
+
+          <div class="content-panel">
+            <p class="eyebrow">Mission: make Mistu smile</p>
+            <h1>Do you love me <span>Mistu</span>?</h1>
+            <p class="subtext" id="subtext">
+              Choose very carefully. One button is sweet. The other button has trust issues and
+              refuses to cooperate.
+            </p>
+
+            <div class="button-stage" id="buttonStage">
+              <button class="answer-btn yes-btn" id="yesBtn">Yes, obviously</button>
+              <button class="answer-btn no-btn" id="noBtn">No</button>
+            </div>
+
+            <p class="status-line" id="statusLine">Hover the buttons and witness cinema.</p>
+          </div>
+        </div>
+
+        <div class="love-note hidden" id="successNote">
+          <h2>Application accepted</h2>
+          <p>
+            Mistu clicked yes, the universe is stable again, and this page would like to scream
+            happy songs into the sky.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
